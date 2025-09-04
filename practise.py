@@ -324,8 +324,14 @@ class Solution:
         
         return low
 '''
-
+'''
 s = str(input("enter : "))
 splited = s.split()
 len_of_last = splited[-1]
 print(len(len_of_last))
+'''
+
+i = 1
+j = 4
+mid = (i + j) // 2
+print(mid)
